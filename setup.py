@@ -1,5 +1,6 @@
 from setuptools import setup
 
 setup(name='themoviedb',
-      packages=['themoviedb']
+      py_modules = ['tmdb'],
+      package_dir = {'': 'themoviedb'}
 )
